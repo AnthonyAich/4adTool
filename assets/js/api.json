@@ -1,0 +1,187 @@
+{
+    "data": [{
+        "naam": "Super 8 (Export)",
+        "graden": "4.8",
+        "prijs": "2,20"
+    }, {
+        "naam": "Primus van’ t vat (pintje)",
+        "graden": "5.2",
+        "prijs": "2.20"
+    }, {
+        "naam": "Kriek Mystic",
+        "graden": "5.1",
+        "prijs": "2.50"
+    }, {
+        "naam": "Rodenbach",
+        "graden": "5.2",
+        "prijs": "2.50"
+    }, {
+        "naam": "Star light pils",
+        "graden": "0.4",
+        "prijs": "2.00"
+    }, {
+        "naam": "Vedett",
+        "graden": "5.2",
+        "prijs": "3.00"
+    }, {
+        "naam": "Hommelbier",
+        "graden": "7.5",
+        "prijs": "2.50"
+    }, {
+        "naam": "Boon Oude Geuze",
+        "graden": "5.2",
+        "prijs": "2.20"
+    }, {
+        "naam": "Tongerlo (blond / bruin)",
+        "graden": "6.0",
+        "prijs": "3.50"
+    }, {
+        "naam": "Plukker Tripel (bio)",
+        "graden": "7.5",
+        "prijs": "4.00"
+    }, {
+        "naam": "Keikoppenbier",
+        "graden": "6.1",
+        "prijs": "3.00"
+    }, {
+        "naam": "St.-Bernardus Tripel",
+        "graden": "8.0",
+        "prijs": "3.50"
+    }, {
+        "naam": "St.-Bernardus wit",
+        "graden": "5.5",
+        "prijs": "2.50"
+    }, {
+        "naam": "St.-Bernardus 6",
+        "graden": "6.7",
+        "prijs": "3.00"
+    }, {
+        "naam": "Westmalle Tripel",
+        "graden": "9.5",
+        "prijs": "3.50"
+    }, {
+        "naam": "Duvel",
+        "graden": "8.5",
+        "prijs": "3.50"
+    }, {
+        "naam": "Papegaei",
+        "graden": "8.0",
+        "prijs": "3.50"
+    }, {
+        "naam": "Orval",
+        "graden": "6.2",
+        "prijs": "4.00"
+    }, {
+        "naam": "Chimay Blue (blauw)",
+        "graden": "9.0",
+        "prijs": "4.00"
+    }, {
+        "naam": "Rochefort",
+        "graden": "11.3",
+        "prijs": "4.50"
+    }, {
+        "naam": "Reninge Oud Bruin",
+        "graden": "6.0",
+        "prijs": "8.00"
+    }, {
+        "naam": "Viven master Ipa",
+        "graden": "7.0",
+        "prijs": "3.50"
+    }, {
+        "naam": "Gageleer Bio",
+        "graden": "7.5",
+        "prijs": "5.00"
+    }, {
+        "naam": "Ichtegem’s Grand Cru Strubbe",
+        "graden": "6.5",
+        "prijs": "4.00"
+    }, {
+        "naam": "Uytkanter",
+        "graden": "7.0",
+        "prijs": "3.50"
+    }, {
+        "naam": "Cider",
+        "graden": "nvt",
+        "prijs": "3.50"
+    }, {
+        "naam": "Koffie (Oxfam)",
+        "graden": "n.v.t.",
+        "prijs": "2.00"
+    }, {
+        "naam": "Koffie deca (Oxfam)",
+        "graden": "n.v.t.",
+        "prijs": "2.00"
+    }, {
+        "naam": "Thee (duurzaam assortiment)",
+        "graden": "n.v.t.",
+        "prijs": "2.00"
+    }, {
+        "naam": "Hotcémel",
+        "graden": "n.v.t.",
+        "prijs": "2.00"
+    }, {
+        "naam": "Soep",
+        "graden": "n.v.t.",
+        "prijs": "2.00"
+    }, {
+        "naam": "Porto",
+        "graden": "n.v.t.",
+        "prijs": "4.00"
+    }, {
+        "naam": "Ricard",
+        "graden": "n.v.t.",
+        "prijs": "4.00"
+    }, {
+        "naam": "Campari Orange",
+        "graden": "n.v.t.",
+        "prijs": "5.00"
+    }, {
+        "naam": "Picon Vin Blanc ",
+        "graden": "n.v.t.",
+        "prijs": "5,00"
+    }, {
+        "naam": "Picon bière",
+        "graden": "n.v.t.",
+        "prijs": "4.00"
+    }, {
+        "naam": "Aperol Spritz",
+        "graden": "n.v.t.",
+        "prijs": "5.00"
+    }, {
+        "naam": "Roomer",
+        "graden": "n.v.t.",
+        "prijs": "4.00"
+    }, {
+        "naam": "Famous Grouse Whisky",
+        "graden": "n.v.t.",
+        "prijs": "6.00"
+    }, {
+        "naam": "Stolichnaya Wodka",
+        "graden": "Graden wil je nie weten",
+        "prijs": "6.00"
+    }, {
+        "naam": "Tanqueray Gin",
+        "graden": "n.v.t.",
+        "prijs": "6.00"
+    }, {
+        "naam": "Ron Caney (wit of bruin)",
+        "graden": "n.v.t.",
+        "prijs": "6.00"
+    }, {
+        "naam": "Ron Caney Anejo Centuria (7 j.) ",
+        "graden": "n.v.t.",
+        "prijs": "7.00"
+    }, {
+        "naam": "Chips (bio)",
+        "graden": "n.v.t.",
+        "prijs": "2.00"
+    }, {
+        "naam": "Droge worst (de Heerlijkheid)",
+        "graden": "n.v.t.",
+        "prijs": "2.00"
+    }, {
+        "naam": "Croque Monsieur",
+        "graden": "n.v.t.",
+        "prijs": "3.00"
+    }]
+}

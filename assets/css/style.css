@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #000000;
+    font-family: 'Roboto',
+        sans-serif;
+}
+
+nav {
+    margin: 5vh auto;
+    text-align: center;
+}
+
+nav>a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: 500;
+}
+
+.actief {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
+    height: 10vh;
+    width: 80%;
+    margin: 0 auto;
+}
+
+main>h1 {
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    padding-top: 5vh;
+}
+
+main {
+    background-color: #ffffff;
+    border-radius: 32px 32px 0px 0px;
+    min-height: 85vh;
+    height: auto;
+}
+
+.uitkomst {
+    background-color: #d1d1d1;
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    border-radius: 9px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.uitkomst>h2 {
+    font-size: 32px;
+    margin-bottom: 5px;
+    padding-top: 15px;
+    ;
+}
+
+.uitkomst>h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.uitkomst>p {
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.frigoTabel {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+.frigoTabel>h1 {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+input {
+    margin: 3% 5% 10% 10%;
+    width: 80%;
+    height: 30px;
+    font-size: 24px;
+}
