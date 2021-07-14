@@ -1,6 +1,7 @@
 # 4adTool
-## Opzoeken
-Je kunt alle artikels opzoeken
+### Opzoeken
+- Je kunt alle artikels opzoeken om de prijs en de frigo te kennen.
+- nog in opmaak
 
-## recepten
-Moet nog gemaakt worden
+### recepten
+- Moet nog gemaakt worden
