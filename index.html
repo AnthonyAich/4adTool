@@ -35,43 +35,45 @@
     </main>
     <script>
         document.querySelector("#search").addEventListener('keydown', function () {
-            let tekst = document.querySelector("#search").value;
-            async function getapi(url) {
+            setTimeout(function () {
+                let tekst = document.querySelector("#search").value;
+                async function getapi(url) {
 
-                // Storing response
-                let response = await fetch(url);
+                    // Storing response
+                    let response = await fetch(url);
 
-                // Storing data in form of JSON
-                let data = await response.json();
-                console.log(data);
-                if (response) {}
-                show(data);
-            }
-            // Calling that async function
-            getapi("assets/js/api.json");
+                    // Storing data in form of JSON
+                    let data = await response.json();
+                    console.log(data);
+                    if (response) {}
+                    show(data);
+                }
+                // Calling that async function
+                getapi("assets/js/api.json");
 
-            function show(data) {
+                function show(data) {
 
-                // Loop to access all rows
-                let tabel = "";
-                for (let r of data.data) {
-                    let artikelNaam = r.naam.toLowerCase();
-                    if (artikelNaam.includes(tekst.toLowerCase())) {
-                        console.log(r.naam);
+                    // Loop to access all rows
+                    let tabel = "";
+                    for (let r of data.data) {
+                        let artikelNaam = r.naam.toLowerCase();
+                        if (artikelNaam.includes(tekst.toLowerCase())) {
+                            console.log(r.naam);
 
-                        tabel = tabel + ` <div class="uitkomst">
+                            tabel = tabel + ` <div class="uitkomst">
                             <h2 id="artikel">${r.naam}</h2>
                             <h3 id="prijs">€${r.prijs}</h3>
                             <p>Frigo <span id="frigoNummer">nr. niet beschikbaar</span></p>
                         </div>`;
+                        }
                     }
+                    if (tekst === "") {
+                        tabel =
+                            '<div class="uitkomst"><h2 id="artikel"> Duvel </h2> <h3 id="prijs"> €3,50 </h3> <p> Frigo <span id="frigoNummer"> 8 </span></p></div>';
+                    }
+                    document.getElementById("containerUitkomst").innerHTML = tabel;
                 }
-                if (tekst === "") {
-                    tabel =
-                        '<div class="uitkomst"><h2 id="artikel"> Duvel </h2> <h3 id="prijs"> €3,50 </h3> <p> Frigo <span id="frigoNummer"> 8 </span></p></div>';
-                }
-                document.getElementById("containerUitkomst").innerHTML = tabel;
-            }
+            }, 50);
         });
     </script>
 </body>
