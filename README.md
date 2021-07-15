@@ -6,7 +6,7 @@ Je kunt alle artikels opzoeken om de prijs en de frigo te kennen.
   - [x] Prijs alle artikelen inzetten
   - [ ] Frigonummers
 
-### recepten
+### Recepten
 - Moet nog gemaakt worden
 
 
