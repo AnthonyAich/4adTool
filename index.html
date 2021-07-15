@@ -19,11 +19,7 @@
         <h1>Type de naam van wat je zoekt</h1>
         <input type="text" id="search">
         <div id="containerUitkomst">
-            <div class="uitkomst">
-                <h2 id="artikel">Duvel</h2>
-                <h3 id="prijs">€3,50</h3>
-                <p>Frigo <span id="frigoNummer">8</span></p>
-            </div>
+
         </div>
 
         <div class="frigoTabel">
@@ -64,8 +60,8 @@
                             <h2 id="artikel">${r.naam}</h2>
                             <h3 id="prijs">${r.prijs === "Gratis"? "Gratis": "€" + r.prijs }</h3>
                             <div class="frEnGr">
-                                <p>${r.frigo}</p>
-                                <p>${r.graden === "n.v.t." ? " " : r.graden + "°"}</p>
+                                <p style="padding-left:15px;">${r.frigo}</p>
+                                <p style="padding-right:15px;">${r.graden === "n.v.t." ? " " : r.graden + "°"}</p>
                             </div>
                         </div>`;
                         }
