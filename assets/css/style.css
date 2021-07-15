@@ -74,7 +74,6 @@ main {
 
 .uitkomst>.frEnGr>p {
     font-size: 20px;
-    padding-bottom: 15px;
 }
 
 .frigoTabel {
@@ -102,4 +101,6 @@ input {
 .frEnGr {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-bottom: 15px;
+
 }
