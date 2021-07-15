@@ -55,13 +55,20 @@
                         let artikelNaam = r.naam.toLowerCase();
                         if (artikelNaam.includes(tekst.toLowerCase())) {
                             console.log(r.naam);
+                            if (r.graden.includes("%")) {
 
+                            } else {
+                                r.graden = r.graden + "°"
+                            }
+                            if (r.graden.includes("n.v.t.")) {
+                                r.graden = " ";
+                            }
                             tabel = tabel + ` <div class="uitkomst">
                             <h2 id="artikel">${r.naam}</h2>
                             <h3 id="prijs">${r.prijs === "Gratis"? "Gratis": "€" + r.prijs }</h3>
                             <div class="frEnGr">
                                 <p style="padding-left:15px;">${r.frigo}</p>
-                                <p style="padding-right:15px;">${r.graden === "n.v.t." ? " " : r.graden + "°"}</p>
+                                <p style="padding-right:15px;">${r.graden}</p>
                             </div>
                         </div>`;
                         }
