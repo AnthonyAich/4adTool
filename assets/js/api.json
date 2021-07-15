@@ -339,5 +339,65 @@
         "graden": "n.v.t.",
         "prijs": "Gratis",
         "frigo": "Tap heel links"
+    }, {
+        "naam": "Lautaro bio (rode wijn) <br> glas",
+        "graden": "14,5%",
+        "prijs": "3.50",
+        "frigo": "Het rek"
+    }, {
+        "naam": "Lautaro bio (rode wijn) <br> fles",
+        "graden": "14,5%",
+        "prijs": "17.50",
+        "frigo": "Het rek"
+    }, {
+        "naam": "Taoz (witte wijn) <br> fles",
+        "graden": "12.5%",
+        "prijs": "17.50",
+        "frigo": "Frigo 5"
+    }, {
+        "naam": "Taoz (witte wijn) <br> glas",
+        "graden": "12.5%",
+        "prijs": "3.50",
+        "frigo": "Frigo 5"
+    }, {
+        "naam": "La Posada (witte wijn) <br> fles",
+        "graden": "12.5%",
+        "prijs": "17.50",
+        "frigo": "Frigo 5"
+    }, {
+        "naam": "La Posada (witte wijn) <br> glas",
+        "graden": "12.5%",
+        "prijs": "3.50",
+        "frigo": "Frigo 5"
+    }, {
+        "naam": "Sepp Moser (witte wijn) <br> fles",
+        "graden": "geen data",
+        "prijs": "20.00",
+        "frigo": "Frigo 5"
+    }, {
+        "naam": "Sepp Moser (witte wijn) <br> glas",
+        "graden": "geen data",
+        "prijs": "4.00",
+        "frigo": "Frigo 5"
+    }, {
+        "naam": "Entre-Deux-Monts (witte wijn droog) <br> fles",
+        "graden": "12%",
+        "prijs": "22.50",
+        "frigo": "Frigo 5"
+    }, {
+        "naam": "Entre-Deux-Monts (witte wijn droog) <br> glas",
+        "graden": "12%",
+        "prijs": "4.50",
+        "frigo": "Frigo 5"
+    }, {
+        "naam": "Gurgo (rode wijn droog) <br> fles",
+        "graden": "geen data",
+        "prijs": "17.50",
+        "frigo": "Het rek"
+    }, {
+        "naam": "Gurgo (rode wijn droog) <br> glas",
+        "graden": "geen data",
+        "prijs": "3.50",
+        "frigo": "Het rek"
     }]
 }
