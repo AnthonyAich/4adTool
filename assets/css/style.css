@@ -104,3 +104,17 @@ input {
     padding-bottom: 15px;
 
 }
+
+@media screen and (min-width:411px) {
+    body {
+        width: 411px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:412px) {
+    body {
+        width: 350px;
+        margin: 0 auto;
+    }
+}
