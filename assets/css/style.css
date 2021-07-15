@@ -72,7 +72,7 @@ main {
     margin-bottom: 15px;
 }
 
-.uitkomst>p {
+.uitkomst>.frEnGr>p {
     font-size: 20px;
     padding-bottom: 15px;
 }
@@ -97,4 +97,9 @@ input {
     width: 80%;
     height: 30px;
     font-size: 24px;
+}
+
+.frEnGr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }

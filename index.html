@@ -63,13 +63,15 @@
                             tabel = tabel + ` <div class="uitkomst">
                             <h2 id="artikel">${r.naam}</h2>
                             <h3 id="prijs">${r.prijs === "Gratis"? "Gratis": "€" + r.prijs }</h3>
-                            <p>${r.frigo}</p>
+                            <div class="frEnGr">
+                                <p>${r.frigo}</p>
+                                <p>${r.graden === "n.v.t." ? r.graden : r.graden + "°"}</p>
+                            </div>
                         </div>`;
                         }
                     }
                     if (tekst === "") {
-                        tabel =
-                            '<div class="uitkomst"><h2 id="artikel"> Duvel </h2> <h3 id="prijs"> €3,50 </h3> <p> Frigo <span id="frigoNummer"> 8 </span></p></div>';
+                        tabel = ' ';
                     }
                     document.getElementById("containerUitkomst").innerHTML = tabel;
                 }
