@@ -13,17 +13,17 @@
         "naam": "Kriek Mystic",
         "graden": "5.1",
         "prijs": "2.50",
-        "frigo": "Frigo ?"
+        "frigo": "Frigo 2"
     }, {
         "naam": "Rodenbach",
         "graden": "5.2",
         "prijs": "2.50",
-        "frigo": "frigo ?"
+        "frigo": "frigo 2"
     }, {
         "naam": "Star light pils",
         "graden": "0.4",
         "prijs": "2.00",
-        "frigo": "frigo ?"
+        "frigo": "frigo 2"
     }, {
         "naam": "Vedett",
         "graden": "5.2",
@@ -33,27 +33,27 @@
         "naam": "Hommelbier",
         "graden": "7.5",
         "prijs": "2.50",
-        "frigo": "Frigo ?"
+        "frigo": "Frigo 3"
     }, {
         "naam": "Boon Oude Geuze",
         "graden": "5.2",
         "prijs": "2.50",
-        "frigo": "Frigo ?"
+        "frigo": "Frigo 3"
     }, {
         "naam": "Tongerlo (blond / bruin)",
         "graden": "6.0",
         "prijs": "3.50",
-        "frigo": "Frigo ?"
+        "frigo": "Frigo 7"
     }, {
         "naam": "Plukker Tripel (bio)",
         "graden": "7.5",
         "prijs": "4.00",
-        "frigo": "Frigo ?"
+        "frigo": "Frigo 7"
     }, {
         "naam": "Keikoppenbier",
         "graden": "6.1",
         "prijs": "3.00",
-        "frigo": "Frigo ?"
+        "frigo": "Frigo 4"
     }, {
         "naam": "St.-Bernardus Tripel",
         "graden": "8.0",
@@ -68,12 +68,12 @@
         "naam": "St.-Bernardus 6",
         "graden": "6.7",
         "prijs": "3.00",
-        "frigo": "Frigo ?"
+        "frigo": "Frigo 6"
     }, {
         "naam": "Westmalle Tripel",
         "graden": "9.5",
         "prijs": "3.50",
-        "frigo": "Frigo ?"
+        "frigo": "Frigo 8"
     }, {
         "naam": "Duvel",
         "graden": "8.5",
@@ -83,7 +83,7 @@
         "naam": "Papegaei",
         "graden": "8.0",
         "prijs": "3.50",
-        "frigo": "Frigo 8"
+        "frigo": "Frigo 4"
     }, {
         "naam": "Orval",
         "graden": "6.2",
@@ -93,17 +93,17 @@
         "naam": "Chimay Blue (blauw)",
         "graden": "9.0",
         "prijs": "4.00",
-        "frigo": "Frigo 8"
+        "frigo": "Frigo 6"
     }, {
         "naam": "Rochefort",
         "graden": "11.3",
         "prijs": "4.50",
-        "frigo": "Frigo 8"
+        "frigo": "Frigo 7"
     }, {
         "naam": "Reninge Oud Bruin",
         "graden": "6.0",
         "prijs": "8.00",
-        "frigo": "Frigo ?"
+        "frigo": "Frigo groot"
     }, {
         "naam": "Viven master Ipa",
         "graden": "7.0",
@@ -113,17 +113,17 @@
         "naam": "Gageleer Bio",
         "graden": "7.5",
         "prijs": "5.00",
-        "frigo": "Frigo ?"
+        "frigo": "Frigo 6"
     }, {
         "naam": "Ichtegem’s Grand Cru Strubbe",
         "graden": "6.5",
         "prijs": "4.00",
-        "frigo": "Frigo ?"
+        "frigo": "Frigo 6"
     }, {
         "naam": "Uytkanter",
         "graden": "7.0",
         "prijs": "3.50",
-        "frigo": "Frigo ?"
+        "frigo": "Frigo 6"
     }, {
         "naam": "Cider",
         "graden": "n.v.t.",
@@ -168,7 +168,7 @@
         "naam": "Campari Orange",
         "graden": "n.v.t.",
         "prijs": "5.00",
-        "frigo": "Rek vanachter"
+        "frigo": "Frigo 5 + 6"
     }, {
         "naam": "Picon Vin Blanc ",
         "graden": "n.v.t.",
@@ -178,12 +178,12 @@
         "naam": "Picon bière",
         "graden": "n.v.t.",
         "prijs": "4.00",
-        "frigo": "Frigo 5"
+        "frigo": "Rek vanachter"
     }, {
         "naam": "Aperol Spritz",
         "graden": "n.v.t.",
         "prijs": "5.00",
-        "frigo": "Frigo 5"
+        "frigo": "Frigo 6"
     }, {
         "naam": "Roomer",
         "graden": "n.v.t.",
@@ -253,12 +253,12 @@
         "naam": "Mirinda limonade",
         "graden": "n.v.t.",
         "prijs": "2.00",
-        "frigo": "Frigo ?"
+        "frigo": "Frigo 3"
     }, {
         "naam": "7up",
         "graden": "n.v.t.",
         "prijs": "2.00",
-        "frigo": "Frigo ?"
+        "frigo": "Frigo 3"
     }, {
         "naam": "Schweppes tonic",
         "graden": "n.v.t.",
@@ -273,7 +273,7 @@
         "naam": "Val tea",
         "graden": "n.v.t.",
         "prijs": "2.00",
-        "frigo": "Frigo 4"
+        "frigo": "Frigo 3"
     }, {
         "naam": "Cecemel (chocomelk)",
         "graden": "n.v.t.",
@@ -288,27 +288,27 @@
         "naam": "Ritchie Cola",
         "graden": "n.v.t.",
         "prijs": "3.00",
-        "frigo": "Frigo ?"
+        "frigo": "Frigo 3"
     }, {
         "naam": "Ritchie Lemon",
         "graden": "n.v.t.",
         "prijs": "3.00",
-        "frigo": "Frigo ?"
+        "frigo": "Frigo 4"
     }, {
         "naam": "Ritchie Orange",
         "graden": "n.v.t.",
         "prijs": "3.00",
-        "frigo": "Frigo ?"
+        "frigo": "Frigo 4"
     }, {
         "naam": "Ritchie Pompelmoes",
         "graden": "n.v.t.",
         "prijs": "3.00",
-        "frigo": "Frigo ?"
+        "frigo": "Frigo 3"
     }, {
         "naam": "Lemonaid Gemberlimonade",
         "graden": "n.v.t.",
         "prijs": "3.50",
-        "frigo": "Frigo ?"
+        "frigo": "Frigo 4"
     }, {
         "naam": "Wostok Peer-Rozemarijn",
         "graden": "n.v.t.",
