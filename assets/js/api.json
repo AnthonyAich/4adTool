@@ -390,14 +390,64 @@
         "prijs": "4.50",
         "frigo": "Frigo 5"
     }, {
-        "naam": "Gurgo (rode wijn droog) <br> fles",
+        "naam": "Gurgo (rode wijn) <br> fles",
         "graden": "geen data",
         "prijs": "17.50",
         "frigo": "Het rek"
     }, {
-        "naam": "Gurgo (rode wijn droog) <br> glas",
+        "naam": "Gurgo (rode wijn) <br> glas",
         "graden": "geen data",
         "prijs": "3.50",
         "frigo": "Het rek"
+    }, {
+        "naam": "Sommos (rode wijn) <br> fles",
+        "graden": "13,5%",
+        "prijs": "20.00",
+        "frigo": "Het rek"
+    }, {
+        "naam": "Sommos (rode wijn) <br> glas",
+        "graden": "13,5%",
+        "prijs": "4.00",
+        "frigo": "Het rek"
+    }, {
+        "naam": "Fontarèche 1682 (rode wijn) <br> fles",
+        "graden": "14%",
+        "prijs": "20.00",
+        "frigo": "Het rek"
+    }, {
+        "naam": "Fontarèche 1682 (rode wijn) <br> glas",
+        "graden": "14%",
+        "prijs": "4.00",
+        "frigo": "Het rek"
+    }, {
+        "naam": "Laurent Miquel (rosé wijn) <br> fles",
+        "graden": "n.v.t.",
+        "prijs": "17.50",
+        "frigo": "Frigo 5"
+    }, {
+        "naam": "Laurent Miquel (rosé wijn) <br> glas",
+        "graden": "n.v.t.",
+        "prijs": "3.50",
+        "frigo": "Frigo 5"
+    }, {
+        "naam": "James Ensor Brut (cava) <br> fles",
+        "graden": "n.v.t.",
+        "prijs": "20.00",
+        "frigo": "Frigo 5"
+    }, {
+        "naam": "James Ensor Brut (cava) <br> glas",
+        "graden": "n.v.t.",
+        "prijs": "4.00",
+        "frigo": "Frigo 5"
+    }, {
+        "naam": "Prosecco Corvezzo <br> fles",
+        "graden": "n.v.t.",
+        "prijs": "20.00",
+        "frigo": "Frigo 5"
+    }, {
+        "naam": "Prosecco Corvezzo <br> glas",
+        "graden": "n.v.t.",
+        "prijs": "4.00",
+        "frigo": "Frigo 5"
     }]
 }
