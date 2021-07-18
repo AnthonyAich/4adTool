@@ -28,8 +28,20 @@
             </h1>
             <img src="assets/images/frigoTabel.png" alt="Frigo tabel">
         </div>
+        <div class="bereken">
+            <img src="assets/images/Up.png">
+        </div>
+        <div class="berekeningPaneel">
+            <img src="assets/images/roodKruis.png" id="kruis" alt="">
+            <div class="berekening">
+
+            </div>
+            <p>Totaal: <span id="prijsTotaal"></span></p>
+        </div>
+
     </main>
     <script>
+        //json data uitvoer ten opzichte van search
         document.querySelector("#search").addEventListener('keydown', function () {
             setTimeout(function () {
                 let tekst = document.querySelector("#search").value;
@@ -64,6 +76,8 @@
                                 r.graden = " ";
                             }
                             tabel = tabel + ` <div class="uitkomst">
+                                <img src="assets/images/kleinGroenPlus.png" class="kruisjeGroen"
+                                    onclick="toevoegen('${r.naam}', '${r.prijs}');">
                             <h2 id="artikel">${r.naam}</h2>
                             <h3 id="prijs">${r.prijs === "Gratis"? "Gratis": "€" + r.prijs }</h3>
                             <div class="frEnGr">
@@ -79,6 +93,119 @@
                     document.getElementById("containerUitkomst").innerHTML = tabel;
                 }
             }, 5);
+        });
+
+        //opslaan, toevoegen en berekenen
+        let artikelArray = [];
+
+        function toevoegen(naam, prijs) {
+            let isIn = false;
+            // artikelArray.push([naam, prijs, 1]);
+            for (let index = 0; index < artikelArray.length; index++) {
+                const element = artikelArray[index];
+                if (artikelArray[index][0] === naam) {
+                    artikelArray[index][2] += 1;
+                    isIn = true;
+                }
+            }
+            if (isIn === false) {
+                artikelArray.push([naam, prijs, 1]);
+            }
+            console.log(artikelArray)
+            tonenArtikels();
+            totaalBerekenen()
+        }
+
+        function aantalAanpassen(naam) {
+            naam = naam.replace(/\s/g, '');
+            naam = naam.replace(")", '');
+            naam = naam.replace("(", '');
+            naam = naam.replace("/", '');
+            naam = naam.replace(".", '');
+
+            setTimeout(() => {
+                let aantal = document.querySelector(`.${naam}`).value;
+                for (let index = 0; index < artikelArray.length; index++) {
+
+                    let naamOpArray = artikelArray[index][0];
+                    naamOpArray = naamOpArray.replace(/\s/g, '');
+                    naamOpArray = naamOpArray.replace(")", '');
+                    naamOpArray = naamOpArray.replace("(", '');
+                    naamOpArray = naamOpArray.replace("/", '');
+                    naamOpArray = naamOpArray.replace(".", '');
+                    if (naamOpArray === naam) {
+                        artikelArray[index][2] = aantal;
+                    }
+                }
+                tonenArtikels();
+                totaalBerekenen()
+            }, 50);
+
+        }
+
+        function plat(naam) {
+            return naam;
+        }
+
+        function artikelVerwijderen(naam) {
+            let indexArtikel = artikelArray.findIndex(p => p[0] === naam);
+            artikelArray.splice(indexArtikel, 1);
+            console.log(artikelArray);
+            tonenArtikels();
+            totaalBerekenen()
+        }
+
+        function arrayResetten() {
+            artikelArray = [];
+            tonenArtikels();
+            totaalBerekenen()
+        }
+
+        function tonenArtikels() {
+            let tabelArtikels = '';
+
+            for (let index = 0; index < artikelArray.length; index++) {
+                let naam = artikelArray[index][0].replace(/\s/g, '');
+                naam = naam.replace(")", '');
+                naam = naam.replace("(", '');
+                naam = naam.replace("/", '');
+                naam = naam.replace(".", '');
+
+                tabelArtikels += `<div class="artikelLijst">
+                <img src="assets/images/roodKruis.png" alt="verwijderen"
+                    onclick="artikelVerwijderen('${artikelArray[index][0]}')">
+                <p>${artikelArray[index][0]}</p> <input type="number" id="search"
+                    onmouseleave="aantalAanpassen('${naam}');"
+                    value="${artikelArray[index][2]}" class="${naam}">
+            </div>`;
+            }
+            document.querySelector(".berekening").innerHTML = tabelArtikels;
+            let height = document.querySelector('.berekeningPaneel').offsetHeight;
+            document.querySelector(".frigoTabel").style.paddingBottom = (height + 5) + "px";
+
+        }
+
+        function totaalBerekenen() {
+            let prijs = artikelArray.reduce((accumulator, element) => {
+                return accumulator + (element[1] * element[2]);
+            }, 0);
+
+            document.getElementById("prijsTotaal").innerHTML = "€" + prijs;
+        }
+
+        function tonenPaneel() {
+
+        }
+
+        document.getElementById("kruis").addEventListener('click', function () {
+            document.querySelector(".berekeningPaneel").style.display = "none";
+            document.querySelector(".bereken").style.display = "block";
+
+        });
+        document.querySelector(".bereken").addEventListener('click', function () {
+            document.querySelector(".berekeningPaneel").style.display = "block";
+            document.querySelector(".bereken").style.display = "none";
+
         });
     </script>
 </body>

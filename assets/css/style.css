@@ -63,8 +63,6 @@ main {
 .uitkomst>h2 {
     font-size: 32px;
     margin-bottom: 5px;
-    padding-top: 15px;
-    ;
 }
 
 .uitkomst>h3 {
@@ -103,4 +101,92 @@ input {
     grid-template-columns: 1fr 1fr;
     padding-bottom: 15px;
 
+}
+
+.bereken {
+    display: none;
+    position: fixed;
+    z-index: 7;
+    bottom: 0px;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    background-color: #d1d1d1;
+    border-radius: 9px 9px 0px 9px;
+    border: 2px solid #000000;
+}
+
+.bereken>img {
+    height: 80%;
+    width: 60%;
+    margin: 10% 20%;
+}
+
+.berekeningPaneel {
+    display: block;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+    background-color: #ffffff;
+}
+
+.berekening>.artikelLijst {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+    margin-top: 15px;
+    height: auto;
+
+}
+
+.berekening>.artikelLijst>img {
+    width: 40px;
+    height: 40px;
+}
+
+.berekening>.artikelLijst>p {
+    width: 50%;
+    overflow: hidden;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.berekening>.artikelLijst>input {
+    width: 40px;
+}
+
+.berekeningPaneel>p {
+    border-top: 2px solid black;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 26px;
+}
+
+.open {
+    width: 100%;
+    height: auto;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.open>img {
+    position: relative;
+    width: 15px;
+    height: auto;
+    top: 15px;
+    right: 10%;
+}
+
+.kruisjeGroen {
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+
+.berekeningPaneel>img {
+    width: 40px;
 }
