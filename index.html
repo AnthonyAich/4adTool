@@ -29,14 +29,15 @@
             <img src="assets/images/frigoTabel.png" alt="Frigo tabel">
         </div>
         <div class="bereken">
-            <img src="assets/images/Up.png">
+            <img src="assets/images/winkelKar.png">
         </div>
         <div class="berekeningPaneel">
             <img src="assets/images/roodKruis.png" id="kruis" alt="">
             <div class="berekening">
 
             </div>
-            <p>Totaal: <span id="prijsTotaal"></span></p>
+            <p>Totaal: <span id="prijsTotaal">0</span></p>
+            <img class="vuilbakje" src="assets/images/vuilbak.png">
         </div>
 
     </main>
@@ -113,7 +114,8 @@
             }
             console.log(artikelArray)
             tonenArtikels();
-            totaalBerekenen()
+            totaalBerekenen();
+            tonenPaneel();
         }
 
         function aantalAanpassen(naam) {
@@ -138,7 +140,7 @@
                     }
                 }
                 tonenArtikels();
-                totaalBerekenen()
+                totaalBerekenen();
             }, 50);
 
         }
@@ -152,13 +154,13 @@
             artikelArray.splice(indexArtikel, 1);
             console.log(artikelArray);
             tonenArtikels();
-            totaalBerekenen()
+            totaalBerekenen();
         }
 
         function arrayResetten() {
             artikelArray = [];
             tonenArtikels();
-            totaalBerekenen()
+            totaalBerekenen();
         }
 
         function tonenArtikels() {
@@ -189,23 +191,26 @@
             let prijs = artikelArray.reduce((accumulator, element) => {
                 return accumulator + (element[1] * element[2]);
             }, 0);
-
             document.getElementById("prijsTotaal").innerHTML = "€" + prijs;
         }
 
         function tonenPaneel() {
-
-        }
-
-        document.getElementById("kruis").addEventListener('click', function () {
-            document.querySelector(".berekeningPaneel").style.display = "none";
-            document.querySelector(".bereken").style.display = "block";
-
-        });
-        document.querySelector(".bereken").addEventListener('click', function () {
             document.querySelector(".berekeningPaneel").style.display = "block";
             document.querySelector(".bereken").style.display = "none";
+        }
 
+        function verwijderPaneel() {
+            document.querySelector(".berekeningPaneel").style.display = "none";
+            document.querySelector(".bereken").style.display = "block";
+        }
+        document.getElementById("kruis").addEventListener('click', function () {
+            verwijderPaneel();
+        });
+        document.querySelector(".bereken").addEventListener('click', function () {
+            tonenPaneel();
+        });
+        document.querySelector(".vuilbakje").addEventListener('click', function () {
+            arrayResetten();
         });
     </script>
 </body>
