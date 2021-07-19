@@ -189,9 +189,9 @@
 
         function totaalBerekenen() {
             let prijs = artikelArray.reduce((accumulator, element) => {
-                return accumulator + (element[1] * element[2]);
+                return accumulator + (element[0] === "kraantjeswater" ? 0 : element[1] * element[2]);
             }, 0);
-            document.getElementById("prijsTotaal").innerHTML = "€" + prijs;
+            document.getElementById("prijsTotaal").innerHTML = "€" + prijs.toFixed(2);
         }
 
         function tonenPaneel() {
