@@ -12,7 +12,7 @@
 <body>
     <header>
         <nav>
-            <a href="testen.html">Receptjes</a><a href="#" class="actief">Opzoeken</a>
+            <a href="testen.html">Info</a><a href="#" class="actief">Opzoeken</a>
         </nav>
     </header>
     <main>
@@ -174,7 +174,7 @@
                 naam = naam.replace(".", '');
 
                 tabelArtikels += `<div class="artikelLijst">
-                <img src="assets/images/roodKruis.png" alt="verwijderen"
+                <img src="assets/images/vuilbak.png" alt="verwijderen"
                     onclick="artikelVerwijderen('${artikelArray[index][0]}')">
                 <p>${artikelArray[index][0]}</p> <input type="number" id="search"
                     onmouseleave="aantalAanpassen('${naam}');"

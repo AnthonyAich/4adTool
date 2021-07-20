@@ -3,451 +3,541 @@
         "naam": "Super 8 (Export)",
         "graden": "4.8",
         "prijs": "2.20",
-        "frigo": "Frigo 1"
+        "frigo": "Frigo 1",
+        "soort": ""
     }, {
         "naam": "Primus van’ t vat (pintje)",
         "graden": "5.2",
         "prijs": "2.20",
-        "frigo": "Tap heel rechts"
+        "frigo": "Tap heel rechts",
+        "soort": ""
     }, {
         "naam": "Kriek Mystic",
         "graden": "5.1",
         "prijs": "2.50",
-        "frigo": "Frigo 2"
+        "frigo": "Frigo 2",
+        "soort": ""
     }, {
         "naam": "Rodenbach",
         "graden": "5.2",
         "prijs": "2.50",
-        "frigo": "frigo 2"
+        "frigo": "frigo 2",
+        "soort": ""
     }, {
         "naam": "Star light pils",
         "graden": "0.4",
         "prijs": "2.00",
-        "frigo": "frigo 2"
+        "frigo": "frigo 2",
+        "soort": ""
     }, {
         "naam": "Vedett",
         "graden": "5.2",
         "prijs": "3.00",
-        "frigo": "Frigo 3"
+        "frigo": "Frigo 3",
+        "soort": ""
     }, {
         "naam": "Hommelbier",
         "graden": "7.5",
         "prijs": "2.50",
-        "frigo": "Frigo 3"
+        "frigo": "Frigo 3",
+        "soort": ""
     }, {
         "naam": "Boon Oude Geuze",
         "graden": "5.2",
         "prijs": "2.50",
-        "frigo": "Frigo 3"
+        "frigo": "Frigo 3",
+        "soort": ""
     }, {
         "naam": "Tongerlo (blond / bruin)",
         "graden": "6.0",
         "prijs": "3.50",
-        "frigo": "Frigo 7"
+        "frigo": "Frigo 7",
+        "soort": ""
     }, {
         "naam": "Plukker Tripel (bio)",
         "graden": "7.5",
         "prijs": "4.00",
-        "frigo": "Frigo 7"
+        "frigo": "Frigo 7",
+        "soort": ""
     }, {
         "naam": "Keikoppenbier",
         "graden": "6.1",
         "prijs": "3.00",
-        "frigo": "Frigo 4"
+        "frigo": "Frigo 4",
+        "soort": ""
     }, {
         "naam": "St.-Bernardus Tripel",
         "graden": "8.0",
         "prijs": "3.50",
-        "frigo": "Frigo 7"
+        "frigo": "Frigo 7",
+        "soort": ""
     }, {
         "naam": "St.-Bernardus wit",
         "graden": "5.5",
         "prijs": "2.50",
-        "frigo": "Frigo 1"
+        "frigo": "Frigo 1",
+        "soort": ""
     }, {
         "naam": "St.-Bernardus 6",
         "graden": "6.7",
         "prijs": "3.00",
-        "frigo": "Frigo 6"
+        "frigo": "Frigo 6",
+        "soort": ""
     }, {
         "naam": "Westmalle Tripel",
         "graden": "9.5",
         "prijs": "3.50",
-        "frigo": "Frigo 8"
+        "frigo": "Frigo 8",
+        "soort": ""
     }, {
         "naam": "Duvel",
         "graden": "8.5",
         "prijs": "3.50",
-        "frigo": "Frigo 8"
+        "frigo": "Frigo 8",
+        "soort": ""
     }, {
         "naam": "Papegaei",
         "graden": "8.0",
         "prijs": "3.50",
-        "frigo": "Frigo 4"
+        "frigo": "Frigo 4",
+        "soort": ""
     }, {
         "naam": "Orval",
         "graden": "6.2",
         "prijs": "4.00",
-        "frigo": "Frigo 8"
+        "frigo": "Frigo 8",
+        "soort": ""
     }, {
         "naam": "Chimay Blue (blauw)",
         "graden": "9.0",
         "prijs": "4.00",
-        "frigo": "Frigo 6"
+        "frigo": "Frigo 6",
+        "soort": ""
     }, {
         "naam": "Rochefort",
         "graden": "11.3",
         "prijs": "4.50",
-        "frigo": "Frigo 7"
+        "frigo": "Frigo 7",
+        "soort": ""
     }, {
         "naam": "Reninge Oud Bruin",
         "graden": "6.0",
         "prijs": "8.00",
-        "frigo": "Frigo groot"
+        "frigo": "Frigo groot",
+        "soort": ""
     }, {
         "naam": "Viven master Ipa",
         "graden": "7.0",
         "prijs": "3.50",
-        "frigo": "Frigo 4"
+        "frigo": "Frigo 4",
+        "soort": ""
     }, {
         "naam": "Gageleer Bio",
         "graden": "7.5",
         "prijs": "5.00",
-        "frigo": "Frigo 6"
+        "frigo": "Frigo 6",
+        "soort": ""
     }, {
         "naam": "Ichtegem’s Grand Cru Strubbe",
         "graden": "6.5",
         "prijs": "4.00",
-        "frigo": "Frigo 6"
+        "frigo": "Frigo 6",
+        "soort": ""
     }, {
         "naam": "Uytkanter",
         "graden": "7.0",
         "prijs": "3.50",
-        "frigo": "Frigo 6"
+        "frigo": "Frigo 6",
+        "soort": ""
     }, {
         "naam": "Cider",
         "graden": "n.v.t.",
         "prijs": "3.50",
-        "frigo": "Frigo 2"
+        "frigo": "Frigo 2",
+        "soort": ""
     }, {
         "naam": "Koffie (Oxfam)",
         "graden": "n.v.t.",
         "prijs": "2.00",
-        "frigo": "Koffiemachine"
+        "frigo": "Koffiemachine",
+        "soort": ""
     }, {
         "naam": "Koffie deca (Oxfam)",
         "graden": "n.v.t.",
         "prijs": "2.00",
-        "frigo": "Koffiemachine"
+        "frigo": "Koffiemachine",
+        "soort": ""
     }, {
         "naam": "Thee (duurzaam assortiment)",
         "graden": "n.v.t.",
         "prijs": "2.00",
-        "frigo": "waterkoker"
+        "frigo": "waterkoker",
+        "soort": ""
     }, {
         "naam": "Hotcémel",
         "graden": "n.v.t.",
         "prijs": "2.00",
-        "frigo": "waterkoker"
+        "frigo": "waterkoker",
+        "soort": ""
     }, {
         "naam": "Soep",
         "graden": "n.v.t.",
         "prijs": "2.00",
-        "frigo": "waterkoker"
+        "frigo": "waterkoker",
+        "soort": ""
     }, {
         "naam": "Porto",
         "graden": "n.v.t.",
         "prijs": "4.00",
-        "frigo": "Rek vanachter"
+        "frigo": "Rek vanachter",
+        "soort": ""
     }, {
         "naam": "Ricard",
         "graden": "n.v.t.",
         "prijs": "4.00",
-        "frigo": "Rek vanachter"
+        "frigo": "Rek vanachter",
+        "soort": ""
     }, {
         "naam": "Campari Orange",
         "graden": "n.v.t.",
         "prijs": "5.00",
-        "frigo": "Frigo 5 + 6"
+        "frigo": "Frigo 5 + 6",
+        "soort": ""
     }, {
         "naam": "Picon Vin Blanc ",
         "graden": "n.v.t.",
         "prijs": "5.00",
-        "frigo": "Frigo 5"
+        "frigo": "Frigo 5",
+        "soort": ""
     }, {
         "naam": "Picon bière",
         "graden": "n.v.t.",
         "prijs": "4.00",
-        "frigo": "Rek vanachter"
+        "frigo": "Rek vanachter",
+        "soort": ""
     }, {
         "naam": "Aperol Spritz",
         "graden": "n.v.t.",
         "prijs": "5.00",
-        "frigo": "Frigo 6"
+        "frigo": "Frigo 6",
+        "soort": ""
     }, {
         "naam": "Roomer",
         "graden": "n.v.t.",
         "prijs": "4.00",
-        "frigo": "Frigo ?"
+        "frigo": "Frigo ?",
+        "soort": ""
     }, {
         "naam": "Famous Grouse Whisky",
         "graden": "n.v.t.",
         "prijs": "6.00",
-        "frigo": "Omgekeerde flessen"
+        "frigo": "Omgekeerde flessen",
+        "soort": ""
     }, {
         "naam": "Stolichnaya Wodka",
         "graden": "Graden wil je nie weten",
         "prijs": "6.00",
-        "frigo": "Omgekeerde flessen"
+        "frigo": "Omgekeerde flessen",
+        "soort": ""
     }, {
         "naam": "Tanqueray Gin",
         "graden": "43,1%",
         "prijs": "6.00",
-        "frigo": "Omgekeerde flessen"
+        "frigo": "Omgekeerde flessen",
+        "soort": ""
     }, {
         "naam": "Ron Caney (wit of bruin)",
         "graden": "n.v.t.",
         "prijs": "6.00",
-        "frigo": "Omgekeerde flessen"
+        "frigo": "Omgekeerde flessen",
+        "soort": ""
     }, {
         "naam": "Ron Caney Anejo Centuria (7 j.) ",
         "graden": "n.v.t.",
         "prijs": "7.00",
-        "frigo": "Omgekeerde flessen"
+        "frigo": "Omgekeerde flessen",
+        "soort": ""
     }, {
         "naam": "Chips (bio)",
         "graden": "n.v.t.",
         "prijs": "2.00",
-        "frigo": "Links onder toog"
+        "frigo": "Links onder toog",
+        "soort": ""
     }, {
         "naam": "Droge worst (de Heerlijkheid)",
         "graden": "n.v.t.",
         "prijs": "2.00",
-        "frigo": "Het rek"
+        "frigo": "Het rek",
+        "soort": ""
     }, {
         "naam": "Croque Monsieur",
         "graden": "n.v.t.",
         "prijs": "3.00",
-        "frigo": "Frigo 7"
+        "frigo": "Frigo 7",
+        "soort": ""
     }, {
         "naam": "Pepsi Cola",
         "graden": "n.v.t.",
         "prijs": "2.00",
-        "frigo": "Frigo 1"
+        "frigo": "Frigo 1",
+        "soort": ""
     }, {
         "naam": "Pepsi Max Cola",
         "graden": "n.v.t.",
         "prijs": "2.00",
-        "frigo": "Frigo 1"
+        "frigo": "Frigo 1",
+        "soort": ""
     }, {
         "naam": "Val bruis water",
         "graden": "n.v.t.",
         "prijs": "2.00",
-        "frigo": "Frigo 2"
+        "frigo": "Frigo 2",
+        "soort": ""
     }, {
         "naam": "Val water",
         "graden": "n.v.t.",
         "prijs": "2.00",
-        "frigo": "Frigo 2"
+        "frigo": "Frigo 2",
+        "soort": ""
     }, {
         "naam": "Mirinda limonade",
         "graden": "n.v.t.",
         "prijs": "2.00",
-        "frigo": "Frigo 3"
+        "frigo": "Frigo 3",
+        "soort": ""
     }, {
         "naam": "7up",
         "graden": "n.v.t.",
         "prijs": "2.00",
-        "frigo": "Frigo 3"
+        "frigo": "Frigo 3",
+        "soort": ""
     }, {
         "naam": "Schweppes tonic",
         "graden": "n.v.t.",
         "prijs": "2.20",
-        "frigo": "Frigo 4"
+        "frigo": "Frigo 4",
+        "soort": ""
     }, {
         "naam": "Schweppes Agrum",
         "graden": "n.v.t.",
         "prijs": "2.20",
-        "frigo": "Frigo 4"
+        "frigo": "Frigo 4",
+        "soort": ""
     }, {
         "naam": "Val tea",
         "graden": "n.v.t.",
         "prijs": "2.00",
-        "frigo": "Frigo 3"
+        "frigo": "Frigo 3",
+        "soort": ""
     }, {
         "naam": "Cecemel (chocomelk)",
         "graden": "n.v.t.",
         "prijs": "2.00",
-        "frigo": "Frigo 5"
+        "frigo": "Frigo 5",
+        "soort": ""
     }, {
         "naam": "Tönissteiner Zitrone Fit",
         "graden": "n.v.t.",
         "prijs": "2.00",
-        "frigo": "Frigo 4"
+        "frigo": "Frigo 4",
+        "soort": ""
     }, {
         "naam": "Ritchie Cola",
         "graden": "n.v.t.",
         "prijs": "3.00",
-        "frigo": "Frigo 3"
+        "frigo": "Frigo 3",
+        "soort": ""
     }, {
         "naam": "Ritchie Lemon",
         "graden": "n.v.t.",
         "prijs": "3.00",
-        "frigo": "Frigo 4"
+        "frigo": "Frigo 4",
+        "soort": ""
     }, {
         "naam": "Ritchie Orange",
         "graden": "n.v.t.",
         "prijs": "3.00",
-        "frigo": "Frigo 4"
+        "frigo": "Frigo 4",
+        "soort": ""
     }, {
         "naam": "Ritchie Pompelmoes",
         "graden": "n.v.t.",
         "prijs": "3.00",
-        "frigo": "Frigo 3"
+        "frigo": "Frigo 3",
+        "soort": ""
     }, {
         "naam": "Lemonaid Gemberlimonade",
         "graden": "n.v.t.",
         "prijs": "3.50",
-        "frigo": "Frigo 4"
+        "frigo": "Frigo 4",
+        "soort": ""
     }, {
         "naam": "Wostok Peer-Rozemarijn",
         "graden": "n.v.t.",
         "prijs": "3.50",
-        "frigo": "Frigo 4"
+        "frigo": "Frigo 4",
+        "soort": ""
     }, {
         "naam": "Sinaasappelsap (Oxfam)",
         "graden": "n.v.t.",
         "prijs": "2.00",
-        "frigo": "Frigo 5"
+        "frigo": "Frigo 5",
+        "soort": ""
     }, {
         "naam": "Appelsap (Oxfam)",
         "graden": "n.v.t.",
         "prijs": "2.00",
-        "frigo": "Frigo 5"
+        "frigo": "Frigo 5",
+        "soort": ""
     }, {
         "naam": "World Shake (Oxfam)",
         "graden": "n.v.t.",
         "prijs": "2.00",
-        "frigo": "Frigo 5"
+        "frigo": "Frigo 5",
+        "soort": ""
     }, {
         "naam": "Bio Siroop van ’t Vlierbos (vlierbloesem, citroen, cassis)",
         "graden": "n.v.t.",
         "prijs": "1.50",
-        "frigo": "Frigo 5"
+        "frigo": "Frigo 5",
+        "soort": ""
     }, {
         "naam": "kraantjeswater",
         "graden": "n.v.t.",
         "prijs": "Gratis",
-        "frigo": "Tap heel links"
+        "frigo": "Tap heel links",
+        "soort": ""
     }, {
         "naam": "Lautaro bio (rode wijn) <br> glas",
         "graden": "14,5%",
         "prijs": "3.50",
-        "frigo": "Het rek"
+        "frigo": "Het rek",
+        "soort": ""
     }, {
         "naam": "Lautaro bio (rode wijn) <br> fles",
         "graden": "14,5%",
         "prijs": "17.50",
-        "frigo": "Het rek"
+        "frigo": "Het rek",
+        "soort": ""
     }, {
         "naam": "Taoz (witte wijn) <br> fles",
         "graden": "12.5%",
         "prijs": "17.50",
-        "frigo": "Frigo 5"
+        "frigo": "Frigo 5",
+        "soort": ""
     }, {
         "naam": "Taoz (witte wijn) <br> glas",
         "graden": "12.5%",
         "prijs": "3.50",
-        "frigo": "Frigo 5"
+        "frigo": "Frigo 5",
+        "soort": ""
     }, {
         "naam": "La Posada (witte wijn) <br> fles",
         "graden": "12.5%",
         "prijs": "17.50",
-        "frigo": "Frigo 5"
+        "frigo": "Frigo 5",
+        "soort": ""
     }, {
         "naam": "La Posada (witte wijn) <br> glas",
         "graden": "12.5%",
         "prijs": "3.50",
-        "frigo": "Frigo 5"
+        "frigo": "Frigo 5",
+        "soort": ""
     }, {
         "naam": "Sepp Moser (witte wijn) <br> fles",
         "graden": "geen data",
         "prijs": "20.00",
-        "frigo": "Frigo 5"
+        "frigo": "Frigo 5",
+        "soort": ""
     }, {
         "naam": "Sepp Moser (witte wijn) <br> glas",
         "graden": "geen data",
         "prijs": "4.00",
-        "frigo": "Frigo 5"
+        "frigo": "Frigo 5",
+        "soort": ""
     }, {
         "naam": "Entre-Deux-Monts (witte wijn droog) <br> fles",
         "graden": "12%",
         "prijs": "22.50",
-        "frigo": "Frigo 5"
+        "frigo": "Frigo 5",
+        "soort": ""
     }, {
         "naam": "Entre-Deux-Monts (witte wijn droog) <br> glas",
         "graden": "12%",
         "prijs": "4.50",
-        "frigo": "Frigo 5"
+        "frigo": "Frigo 5",
+        "soort": ""
     }, {
         "naam": "Gurgo (rode wijn) <br> fles",
         "graden": "geen data",
         "prijs": "17.50",
-        "frigo": "Het rek"
+        "frigo": "Het rek",
+        "soort": ""
     }, {
         "naam": "Gurgo (rode wijn) <br> glas",
         "graden": "geen data",
         "prijs": "3.50",
-        "frigo": "Het rek"
+        "frigo": "Het rek",
+        "soort": ""
     }, {
         "naam": "Sommos (rode wijn) <br> fles",
         "graden": "13,5%",
         "prijs": "20.00",
-        "frigo": "Het rek"
+        "frigo": "Het rek",
+        "soort": ""
     }, {
         "naam": "Sommos (rode wijn) <br> glas",
         "graden": "13,5%",
         "prijs": "4.00",
-        "frigo": "Het rek"
+        "frigo": "Het rek",
+        "soort": ""
     }, {
         "naam": "Fontarèche 1682 (rode wijn) <br> fles",
         "graden": "14%",
         "prijs": "20.00",
-        "frigo": "Het rek"
+        "frigo": "Het rek",
+        "soort": ""
     }, {
         "naam": "Fontarèche 1682 (rode wijn) <br> glas",
         "graden": "14%",
         "prijs": "4.00",
-        "frigo": "Het rek"
+        "frigo": "Het rek",
+        "soort": ""
     }, {
         "naam": "Laurent Miquel (rosé wijn) <br> fles",
         "graden": "n.v.t.",
         "prijs": "17.50",
-        "frigo": "Frigo 5"
+        "frigo": "Frigo 5",
+        "soort": ""
     }, {
         "naam": "Laurent Miquel (rosé wijn) <br> glas",
         "graden": "n.v.t.",
         "prijs": "3.50",
-        "frigo": "Frigo 5"
+        "frigo": "Frigo 5",
+        "soort": ""
     }, {
         "naam": "James Ensor Brut (cava) <br> fles",
         "graden": "n.v.t.",
         "prijs": "20.00",
-        "frigo": "Frigo 5"
+        "frigo": "Frigo 5",
+        "soort": ""
     }, {
         "naam": "James Ensor Brut (cava) <br> glas",
         "graden": "n.v.t.",
         "prijs": "4.00",
-        "frigo": "Frigo 5"
+        "frigo": "Frigo 5",
+        "soort": ""
     }, {
         "naam": "Prosecco Corvezzo <br> fles",
         "graden": "n.v.t.",
         "prijs": "20.00",
-        "frigo": "Frigo 5"
+        "frigo": "Frigo 5",
+        "soort": ""
     }, {
         "naam": "Prosecco Corvezzo <br> glas",
         "graden": "n.v.t.",
         "prijs": "4.00",
-        "frigo": "Frigo 5"
+        "frigo": "Frigo 5",
+        "soort": ""
     }]
 }
