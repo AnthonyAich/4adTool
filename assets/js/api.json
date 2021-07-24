@@ -539,5 +539,10 @@
         "prijs": "4.00",
         "frigo": "Frigo 5",
         "soort": ""
-    }]
+    }, {
+    "naam":"Carlsberg",
+    "graden":"5.5",
+    "prijs":"2.50",
+    "frigo": "Frigo 3",
+    "soort":""}]
 }
